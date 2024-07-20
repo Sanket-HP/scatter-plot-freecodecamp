@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#scatterplot {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+.dot {
+    fill: steelblue;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background: lightgrey;
+    border: 1px solid grey;
+    pointer-events: none;
+}
+
+#legend {
+    margin-top: 10px;
+    font-size: 14px;
+}
